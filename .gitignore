@@ -1,5 +1,36 @@
+# KiCad backups, autosaves
+*~
 *.bak
 *.bck
-*.kicad_prl
 *.tmp
-*~
+_autosave-*
+*.000
+*.001
+*.002
+
+# KiCad 3d model cache
+*.step
+*.stp
+*.wrl
+
+# KiCad backups (v6/v7/v8)
+*.kicad_prl
+*-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-backups/
+
+# Gerbers and fab output
+gerbers/
+fabrication/
+manufacturing/
+*.gbr
+*.drl
+*.pos
+*.csv
+
+# Footprint info cache
+fp-info-cache
+
+# Python junk
+__pycache__/
