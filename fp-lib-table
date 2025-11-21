@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "oscilloscope")(type "KiCad")(uri "${KIPRJMOD}/oscilloscope.pretty")(options "")(descr ""))
+)
