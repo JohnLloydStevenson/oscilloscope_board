@@ -15556,15 +15556,6 @@
 		(uuid "ba332fd2-0caf-4e3f-b2df-4e67c07b2b00")
 	)
 	(via
-		(at 168.75 91.75)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "baeb9c1f-2d32-4ce0-bbbf-170b4110dc1c")
-	)
-	(via
 		(at 138.5 111.5)
 		(size 0.6)
 		(drill 0.3)
