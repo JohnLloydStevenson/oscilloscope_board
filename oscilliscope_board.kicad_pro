@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 3.1,
+          "height": 3.0,
+          "width": 4.1
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -452,14 +452,103 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.3,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Signals",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_assignments": {
+      "Net-(U1-PIO2)": "Signals",
+      "Net-(U1-PIO29)": "Signals",
+      "Net-(U1-PIO3)": "Signals",
+      "Net-(U1-PIO30)": "Signals",
+      "Net-(U1-PIO31)": "Signals",
+      "Net-(U1-PIO32)": "Signals",
+      "Net-(U1-PIO33)": "Signals",
+      "Net-(U1-PIO34)": "Signals",
+      "Net-(U1-PIO35)": "Signals",
+      "Net-(U1-PIO36)": "Signals",
+      "Net-(U1-PIO37)": "Signals",
+      "Net-(U1-PIO38)": "Signals",
+      "Net-(U1-PIO39)": "Signals",
+      "Net-(U1-PIO4)": "Signals",
+      "Net-(U1-PIO40)": "Signals",
+      "Net-(U1-PIO41)": "Signals",
+      "Net-(U1-PIO42)": "Signals",
+      "Net-(U1-PIO43)": "Signals",
+      "Net-(U1-PIO44)": "Signals",
+      "Net-(U1-PIO45)": "Signals",
+      "Net-(U1-PIO46)": "Signals",
+      "Net-(U1-PIO5)": "Signals",
+      "Net-(U2-ANALOG0)": "Signals",
+      "Net-(U2-ANALOG1)": "Signals",
+      "Net-(U2-CLK)": "Signals",
+      "Net-(U2-CS)": "Signals",
+      "Net-(U2-DIN)": "Signals",
+      "Net-(U2-DOUT)": "Signals",
+      "Net-(U3-DB0)": "Signals",
+      "Net-(U3-DB1)": "Signals",
+      "Net-(U3-DB10)": "Signals",
+      "Net-(U3-DB11)": "Signals",
+      "Net-(U3-DB12)": "Signals",
+      "Net-(U3-DB13)": "Signals",
+      "Net-(U3-DB14)": "Signals",
+      "Net-(U3-DB15)": "Signals",
+      "Net-(U3-DB2)": "Signals",
+      "Net-(U3-DB3)": "Signals",
+      "Net-(U3-DB4)": "Signals",
+      "Net-(U3-DB5)": "Signals",
+      "Net-(U3-DB6)": "Signals",
+      "Net-(U3-DB7)": "Signals",
+      "Net-(U3-DB8)": "Signals",
+      "Net-(U3-DB9)": "Signals",
+      "Net-(U3-WR)": "Signals"
+    },
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "+5*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
